@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( rgb(117, 184, 173) , rgb(136, 92, 143));
+}
+
+.panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px 2px black;
+
+}
+
+#topPanel{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(7, 95, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ele{
+    
+    margin: 0px 10% 0px 0px;
+    display: flex;
+    color: azure;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   
+}
+
+.box{
+    background-color: antiquewhite;
+    width: 2rem;
+    height: 2rem;
+    margin: 0px 10px;
+    border-radius: 50%;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* .end{
+    background-image: linear-gradient(red,blue);
+
+} */
+#btmPanel{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    /* border-color: rgb(18, 88, 88); */
+    /* background-color: aqua; */
+}
+
+.bubble{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(177, 149, 112);
+    color: rgb(10, 62, 62);
+    border-radius: 50%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 5px 0px 0px; */
+
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: coral;
+   
+    transform: scale(1.2,1.2);
+    
+}
